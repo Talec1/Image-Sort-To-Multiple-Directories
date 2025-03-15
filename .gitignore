@@ -1,0 +1,56 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+.idea/
+.vscode/
+master_list.json
+
+# Image files - more comprehensive
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.ico
+**/*.webp
+**/*.jfif
+
+# Image directories - more strict
+all_images/**
+body/**
+faces/**
+img_cat_env/**
+style/**
+test_images/**
+**/images/**
+**/imgs/**
+**/pictures/**
+
+# Data files
+**/*.json
+**/*_list*
+
+# Specific files to ignore
+imageSorter.py
